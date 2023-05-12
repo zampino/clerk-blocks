@@ -11,11 +11,11 @@
   {
     "type": "file",
     "id": "clerk",
-    "title": "Example File Block",
-    "description": "A basic file block",
+    "title": "📦 Clerky Blocks",
+    "description": "A clerk block for rendering markdown or clojurescript files as clerk blocks",
     "entry": "blocks/clerk/index.tsx",
     "matches": [
-      "*"
+      "*.{md,clj,cljs}"
     ],
     "example_path": "https://github.com/nextjournal/clerk"
   },
